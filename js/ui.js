@@ -257,3 +257,45 @@ function expressStart(key) {
 
 
 
+
+function showResults() {
+    document.querySelector('.quiz-header').style.display = 'none';
+    document.getElementById('questionsContainer').style.display = 'none';
+    document.querySelector('.progress-wrapper').style.display = 'none';
+    const express = document.getElementById('expressPanel');
+    if (express) express.style.display = 'none';
+
+    // Build profile rows
+    const labelMap = {};
+    questions.forEach(q => q.options.forEach(o => { labelMap[q.id + '__' + o.value] = o.label; }));
+    document.getElementById('profileRows').innerHTML = questions.map(q => {
+        const val = answers[q.id];
+        if (!val) return ''; // If not all questions are answered somehow
+        const label = labelMap[q.id + '__' + val] || val;
+        const cleanQ = q.text.replace(' ?', '').replace('Quel est votre ', '').replace('Quelle est votre ', '')
+            .replace('À quelle fréquence souhaitez-vous vous en occuper', 'Fréquence')
+            .replace('Quelle routine vous correspond', 'Préférence routine')
+            .replace('Quel budget souhaitez-vous investir', 'Budget');
+        return '<div class="profile-row"><span class="label">' + cleanQ + '</span><span class="profile-tag">' + label + '</span></div>';
+    }).join('');
+
+    const { routine, upsell, needsSPF, mode, modeInfo, hero } = buildRoutine(answers);
+    document.getElementById('vendorContainer').innerHTML = buildVendorView(hero, routine, upsell, answers, needsSPF);
+    document.getElementById('resultsCard').classList.add('active');
+    switchDisplay('rapide');
+}
+
+function restart() {
+    window.location.reload();
+}
+
+function toggleJSON() {
+    const output = document.getElementById('jsonOutput');
+    const code = document.getElementById('jsonContent');
+    if (output.style.display === 'block') {
+        output.style.display = 'none';
+    } else {
+        code.textContent = JSON.stringify(answers, null, 2);
+        output.style.display = 'block';
+    }
+}
