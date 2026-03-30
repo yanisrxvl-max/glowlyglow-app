@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "VGNG01",
+    "nom": "Gel Nettoyant Glow",
+    "gamme": "GLOW",
+    "categorie": "nettoyant",
+    "sous_titre": "Purifie & Ravive l'éclat",
+    "actifs_cles": [
+      "Curcuma",
+      "Niacinamide",
+      "Arbutine"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale"
+    ],
+    "problemes": [
+      "taches",
+      "teint_terne",
+      "eclat",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 4,
+    "prix": 18,
+    "spf_requis": false,
+    "compatible": [
+      "VSG01",
+      "VLG01",
+      "VCG01",
+      "VCG02",
+      "VMG01",
+      "VCS01",
+      "CAG01"
+    ],
+    "emoji": "🧴"
+  },
+  {
+    "id": "VMG01",
+    "nom": "Masque Éclat au Curcuma",
+    "gamme": "GLOW",
+    "categorie": "masque",
+    "sous_titre": "Purifie & Unifie en profondeur",
+    "actifs_cles": [
+      "Kaolin",
+      "Curcuma",
+      "Vitamine C"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale"
+    ],
+    "problemes": [
+      "taches",
+      "teint_terne",
+      "eclat",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 3,
+    "prix": 20,
+    "spf_requis": false,
+    "compatible": [
+      "VGNG01",
+      "VSG01",
+      "VCG01",
+      "VCS01"
+    ],
+    "emoji": "✨"
+  },
+  {
+    "id": "VLG01",
+    "nom": "Lotion Tonique Éclat AHA Glow",
+    "gamme": "GLOW",
+    "categorie": "lotion",
+    "sous_titre": "Exfolie & Affine le grain",
+    "actifs_cles": [
+      "AHA",
+      "Niacinamide",
+      "Extrait citrus"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale"
+    ],
+    "problemes": [
+      "taches",
+      "teint_terne",
+      "imperfections",
+      "eclat"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 4,
+    "prix": 22,
+    "spf_requis": true,
+    "compatible": [
+      "VGNG01",
+      "VSG01",
+      "VCG01",
+      "VCS01"
+    ],
+    "emoji": "💧"
+  },
+  {
+    "id": "VSG01",
+    "nom": "Sérum Anti-Taches Glow",
+    "gamme": "GLOW",
+    "categorie": "serum",
+    "sous_titre": "Best-seller — Cible taches & éclat",
+    "actifs_cles": [
+      "Niacinamide",
+      "Vitamine C",
+      "Réglisse"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale",
+      "seche"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "teint_terne"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 5,
+    "prix": 28,
+    "spf_requis": true,
+    "compatible": [
+      "VGNG01",
+      "VCG01",
+      "VCS01",
+      "CAG01",
+      "VLG01"
+    ],
+    "emoji": "⭐"
+  },
+  {
+    "id": "VCG01",
+    "nom": "Crème de Jour Éclat Glow",
+    "gamme": "GLOW",
+    "categorie": "creme_jour",
+    "sous_titre": "Hydrate & Unifie le teint",
+    "actifs_cles": [
+      "Céramides",
+      "Niacinamide",
+      "Vitamine C",
+      "Arbutine"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale",
+      "seche"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "teint_terne",
+      "deshydratation"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 4,
+    "prix": 25,
+    "spf_requis": true,
+    "compatible": [
+      "VGNG01",
+      "VSG01",
+      "VCS01",
+      "CAG01"
+    ],
+    "emoji": "🌅"
+  },
+  {
+    "id": "VCG02",
+    "nom": "Crème de Nuit Régénérante Glow",
+    "gamme": "GLOW",
+    "categorie": "creme_nuit",
+    "sous_titre": "Régénère & Répare la nuit",
+    "actifs_cles": [
+      "Bakuchiol",
+      "AHA doux",
+      "Céramides",
+      "Phytosphingosine"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale",
+      "seche"
+    ],
+    "problemes": [
+      "taches",
+      "anti_age",
+      "eclat",
+      "teint_terne"
+    ],
+    "objectifs": [
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 4,
+    "prix": 28,
+    "spf_requis": true,
+    "compatible": [
+      "VGNG01",
+      "VSG01",
+      "VCS01"
+    ],
+    "emoji": "🌙"
+  },
+  {
+    "id": "VGE01",
+    "nom": "Masque Peel-Off Éclat Glow",
+    "gamme": "GLOW",
+    "categorie": "masque",
+    "sous_titre": "Capture impuretés nuit",
+    "actifs_cles": [
+      "Glutathion",
+      "Vitamine C",
+      "Acides doux"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale"
+    ],
+    "problemes": [
+      "eclat",
+      "taches",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 2,
+    "prix": 22,
+    "spf_requis": true,
+    "compatible": [
+      "VGNG01",
+      "VCS01"
+    ],
+    "emoji": "🔮"
+  },
+  {
+    "id": "VGE02",
+    "nom": "Gommage Enzymatique Glow",
+    "gamme": "GLOW",
+    "categorie": "gommage",
+    "sous_titre": "Triple exfoliation toutes gammes",
+    "actifs_cles": [
+      "Enzymes papaye",
+      "AHA",
+      "BHA"
+    ],
+    "types_peau": [
+      "mixte",
+      "grasse",
+      "normale",
+      "seche"
+    ],
+    "problemes": [
+      "teint_terne",
+      "imperfections",
+      "taches",
+      "eclat"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 3,
+    "prix": 20,
+    "spf_requis": true,
+    "compatible": [
+      "VGNG01",
+      "VGNH01",
+      "VGNR01",
+      "VCS01"
+    ],
+    "emoji": "💆"
+  },
+  {
+    "id": "VCS01",
+    "nom": "Crème Solaire Éclat SPF 50",
+    "gamme": "GLOW",
+    "categorie": "spf",
+    "sous_titre": "Protection large spectre",
+    "actifs_cles": [
+      "Filtres SPF50",
+      "Niacinamide",
+      "Antioxydants"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "anti_age"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 5,
+    "prix": 22,
+    "spf_requis": false,
+    "compatible": [
+      "VSG01",
+      "VLG01",
+      "VCG01",
+      "VCG02",
+      "VSH01",
+      "VSR01"
+    ],
+    "emoji": "☀️"
+  },
+  {
+    "id": "CAG01",
+    "nom": "Gummies Glow",
+    "gamme": "GLOW",
+    "categorie": "complement",
+    "sous_titre": "Beauté de l'intérieur",
+    "actifs_cles": [
+      "Collagène",
+      "Glutathion",
+      "Vitamines C & E"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "teint_terne",
+      "anti_age"
+    ],
+    "objectifs": [
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 3,
+    "prix": 25,
+    "spf_requis": false,
+    "compatible": [
+      "VSG01",
+      "VCG01",
+      "VSH01",
+      "VCH01"
+    ],
+    "emoji": "💊"
+  },
+  {
+    "id": "VGNH01",
+    "nom": "Gel Nettoyant Hydratant Hydralis",
+    "gamme": "HYDRALIS",
+    "categorie": "nettoyant",
+    "sous_titre": "Ultra-doux — Barrière préservée",
+    "actifs_cles": [
+      "Ferment de riz",
+      "Bêta-glucane",
+      "Humectants"
+    ],
+    "types_peau": [
+      "seche",
+      "sensible",
+      "normale"
+    ],
+    "problemes": [
+      "deshydratation",
+      "eclat"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 4,
+    "prix": 17,
+    "spf_requis": false,
+    "compatible": [
+      "VSH01",
+      "VLH01",
+      "VCH01",
+      "VMH01",
+      "VCS01"
+    ],
+    "emoji": "🧴"
+  },
+  {
+    "id": "VMH01",
+    "nom": "Masque Hydratant Hydralis",
+    "gamme": "HYDRALIS",
+    "categorie": "masque",
+    "sous_titre": "Hydratation profonde & Confort",
+    "actifs_cles": [
+      "Riz",
+      "Bambou",
+      "Avoine",
+      "Céramides"
+    ],
+    "types_peau": [
+      "seche",
+      "sensible",
+      "normale"
+    ],
+    "problemes": [
+      "deshydratation"
+    ],
+    "objectifs": [
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 3,
+    "prix": 18,
+    "spf_requis": false,
+    "compatible": [
+      "VGNH01",
+      "VSH01",
+      "VCH01"
+    ],
+    "emoji": "💙"
+  },
+  {
+    "id": "VLH01",
+    "nom": "Lotion Biphasée Hydratante Hydralis",
+    "gamme": "HYDRALIS",
+    "categorie": "lotion",
+    "sous_titre": "Prépare & Apaise avant sérum",
+    "actifs_cles": [
+      "Tréhalose",
+      "Acide Hyaluronique",
+      "Pivoine"
+    ],
+    "types_peau": [
+      "seche",
+      "sensible",
+      "normale"
+    ],
+    "problemes": [
+      "deshydratation"
+    ],
+    "objectifs": [
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 3,
+    "prix": 20,
+    "spf_requis": false,
+    "compatible": [
+      "VGNH01",
+      "VSH01",
+      "VCH01"
+    ],
+    "emoji": "💧"
+  },
+  {
+    "id": "VSH01",
+    "nom": "Sérum Hydratation Intense Hydralis",
+    "gamme": "HYDRALIS",
+    "categorie": "serum",
+    "sous_titre": "3 formes d'AH — Effet repulpant",
+    "actifs_cles": [
+      "Acide Hyaluronique 3x",
+      "Squalane",
+      "Ferment de riz"
+    ],
+    "types_peau": [
+      "seche",
+      "sensible",
+      "normale",
+      "mixte"
+    ],
+    "problemes": [
+      "deshydratation",
+      "eclat"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 5,
+    "prix": 26,
+    "spf_requis": false,
+    "compatible": [
+      "VGNH01",
+      "VCH01",
+      "VLH01",
+      "CAG01"
+    ],
+    "emoji": "💦"
+  },
+  {
+    "id": "VCH01",
+    "nom": "Crème Hydratante Hydralis",
+    "gamme": "HYDRALIS",
+    "categorie": "creme_jour",
+    "sous_titre": "Triple hydratation — Barrière renforcée",
+    "actifs_cles": [
+      "Céramides",
+      "Lécithine",
+      "Humectants"
+    ],
+    "types_peau": [
+      "seche",
+      "sensible",
+      "normale"
+    ],
+    "problemes": [
+      "deshydratation",
+      "eclat"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 4,
+    "prix": 24,
+    "spf_requis": false,
+    "compatible": [
+      "VGNH01",
+      "VSH01",
+      "VLH01"
+    ],
+    "emoji": "💙"
+  },
+  {
+    "id": "VGNR01",
+    "nom": "Gel Nettoyant Purifiant Repair",
+    "gamme": "REPAIR",
+    "categorie": "nettoyant",
+    "sous_titre": "Tea Tree & Camomille",
+    "actifs_cles": [
+      "Tea Tree",
+      "Camomille",
+      "Lavande"
+    ],
+    "types_peau": [
+      "grasse",
+      "mixte",
+      "sensible"
+    ],
+    "problemes": [
+      "acne",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 4,
+    "prix": 17,
+    "spf_requis": false,
+    "compatible": [
+      "VSR01",
+      "VLR01",
+      "VCR01",
+      "VMR01",
+      "VCS01"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": "VMR01",
+    "nom": "Masque Purifiant Repair",
+    "gamme": "REPAIR",
+    "categorie": "masque",
+    "sous_titre": "Argile intensive — Purifie & Répare",
+    "actifs_cles": [
+      "Kaolin",
+      "Tea Tree",
+      "Tamanu",
+      "Menthol"
+    ],
+    "types_peau": [
+      "grasse",
+      "mixte"
+    ],
+    "problemes": [
+      "acne",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 3,
+    "prix": 18,
+    "spf_requis": false,
+    "compatible": [
+      "VGNR01",
+      "VSR01",
+      "VCS01"
+    ],
+    "emoji": "🌱"
+  },
+  {
+    "id": "VLR01",
+    "nom": "Lotion Purifiante Repair",
+    "gamme": "REPAIR",
+    "categorie": "lotion",
+    "sous_titre": "Spray tonique purifiant",
+    "actifs_cles": [
+      "Tea Tree",
+      "Lavande",
+      "Hydratants légers"
+    ],
+    "types_peau": [
+      "grasse",
+      "mixte",
+      "sensible"
+    ],
+    "problemes": [
+      "acne",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 3,
+    "prix": 18,
+    "spf_requis": false,
+    "compatible": [
+      "VGNR01",
+      "VSR01",
+      "VCR01"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": "VSR01",
+    "nom": "Sérum Anti-Imperfections Repair",
+    "gamme": "REPAIR",
+    "categorie": "serum",
+    "sous_titre": "Purifie — Application locale possible",
+    "actifs_cles": [
+      "Tea Tree",
+      "Neem",
+      "Écorce de saule"
+    ],
+    "types_peau": [
+      "grasse",
+      "mixte"
+    ],
+    "problemes": [
+      "acne",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 5,
+    "prix": 26,
+    "spf_requis": false,
+    "compatible": [
+      "VGNR01",
+      "VCR01",
+      "VLR01"
+    ],
+    "emoji": "🔬"
+  },
+  {
+    "id": "VCR01",
+    "nom": "Crème Équilibrante Repair",
+    "gamme": "REPAIR",
+    "categorie": "creme_jour",
+    "sous_titre": "Nourrit sans obstruer les pores",
+    "actifs_cles": [
+      "Rose Musquée",
+      "Argan",
+      "Tea Tree",
+      "Calendula"
+    ],
+    "types_peau": [
+      "grasse",
+      "mixte"
+    ],
+    "problemes": [
+      "acne",
+      "imperfections"
+    ],
+    "objectifs": [
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 4,
+    "prix": 24,
+    "spf_requis": false,
+    "compatible": [
+      "VGNR01",
+      "VSR01",
+      "VLR01"
+    ],
+    "emoji": "🌼"
+  },
+  {
+    "id": "BRU01",
+    "nom": "Jasmine Flame",
+    "gamme": "BRUME",
+    "categorie": "brume",
+    "sous_titre": "Oriental floral — Signature sensuelle",
+    "actifs_cles": [
+      "Jasmin",
+      "Safran",
+      "Ambre vanillé"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 2,
+    "prix": 16,
+    "spf_requis": false,
+    "compatible": [],
+    "emoji": "🌸"
+  },
+  {
+    "id": "BRU02",
+    "nom": "Luxury Amber",
+    "gamme": "BRUME",
+    "categorie": "brume",
+    "sous_titre": "Ambré floral — Douceur sophistiquée",
+    "actifs_cles": [
+      "Cassis",
+      "Fleur d'oranger",
+      "Vanille",
+      "Musc"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 2,
+    "prix": 16,
+    "spf_requis": false,
+    "compatible": [],
+    "emoji": "✨"
+  },
+  {
+    "id": "BRU03",
+    "nom": "Seaside Blush",
+    "gamme": "BRUME",
+    "categorie": "brume",
+    "sous_titre": "Brise marine légère — Journée",
+    "actifs_cles": [
+      "Notes marines",
+      "Floral poudré"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 1,
+    "priorite": 2,
+    "prix": 14,
+    "spf_requis": false,
+    "compatible": [],
+    "emoji": "🌊"
+  },
+  {
+    "id": "CGDG01",
+    "nom": "Gel Douche Glow au Curcuma",
+    "gamme": "CORPS_GLOW",
+    "categorie": "corps",
+    "sous_titre": "Traitant — Laisser agir 5-10 min",
+    "actifs_cles": [
+      "Curcuma",
+      "AHA",
+      "Acide Kojique",
+      "Glutathion"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "teint_terne"
+    ],
+    "objectifs": [
+      "rapide",
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 3,
+    "prix": 22,
+    "spf_requis": false,
+    "compatible": [
+      "CLLJ01",
+      "CHCG01"
+    ],
+    "emoji": "🛁"
+  },
+  {
+    "id": "CLLJ01",
+    "nom": "Lait Corps Jour Glow",
+    "gamme": "CORPS_GLOW",
+    "categorie": "corps",
+    "sous_titre": "Unifiant & Hydratant corps",
+    "actifs_cles": [
+      "Céramides",
+      "Squalane",
+      "Actifs anti-taches"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "deshydratation"
+    ],
+    "objectifs": [
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 3,
+    "prix": 24,
+    "spf_requis": false,
+    "compatible": [
+      "CGDG01",
+      "CHCG01"
+    ],
+    "emoji": "🌟"
+  },
+  {
+    "id": "CHCG01",
+    "nom": "Huile Corps Glow",
+    "gamme": "CORPS_GLOW",
+    "categorie": "corps",
+    "sous_titre": "Texture sèche — Fini lumineux",
+    "actifs_cles": [
+      "Huiles végétales",
+      "Actifs éclaircissants"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "deshydratation"
+    ],
+    "objectifs": [
+      "entretien",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "niveau_puiss": 2,
+    "priorite": 2,
+    "prix": 26,
+    "spf_requis": false,
+    "compatible": [
+      "CGDG01",
+      "CLLJ01"
+    ],
+    "emoji": "💫"
+  },
+  {
+    "id": "CGCG01",
+    "nom": "Gommage Corps Glow au Curcuma",
+    "gamme": "CORPS_GLOW",
+    "categorie": "corps",
+    "sous_titre": "Anti-taches corps",
+    "actifs_cles": [
+      "Sucre",
+      "Curcuma",
+      "Actifs éclaircissants"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 2,
+    "prix": 19,
+    "spf_requis": false,
+    "compatible": [
+      "CGDG01",
+      "CLLJ01"
+    ],
+    "emoji": "🌿"
+  },
+  {
+    "id": "CGDL01",
+    "nom": "Gel Douche Light Savon Noir & Kojic",
+    "gamme": "CORPS_LIGHT",
+    "categorie": "corps",
+    "sous_titre": "Minimaliste & Concentré",
+    "actifs_cles": [
+      "Savon noir",
+      "Acide Kojique",
+      "Glutathion"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 2,
+    "prix": 20,
+    "spf_requis": false,
+    "compatible": [
+      "CLLN01",
+      "CHLN01"
+    ],
+    "emoji": "🛁"
+  },
+  {
+    "id": "CLLN01",
+    "nom": "Lait Corps Nuit Light",
+    "gamme": "CORPS_LIGHT",
+    "categorie": "corps",
+    "sous_titre": "Haute concentration — Nuit",
+    "actifs_cles": [
+      "Extraits botaniques",
+      "Inhibiteurs mélanine"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat",
+      "teint_terne"
+    ],
+    "objectifs": [
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 2,
+    "prix": 26,
+    "spf_requis": true,
+    "compatible": [
+      "CGDL01",
+      "CHLN01"
+    ],
+    "emoji": "🌙"
+  },
+  {
+    "id": "CHLN01",
+    "nom": "Huile Corps Nuit Light",
+    "gamme": "CORPS_LIGHT",
+    "categorie": "corps",
+    "sous_titre": "Scelle l'hydratation — Nuit",
+    "actifs_cles": [
+      "Papaye",
+      "Carotte",
+      "Acide Kojique"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale",
+      "sensible"
+    ],
+    "problemes": [
+      "taches",
+      "eclat"
+    ],
+    "objectifs": [
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 2,
+    "prix": 24,
+    "spf_requis": false,
+    "compatible": [
+      "CGDL01",
+      "CLLN01"
+    ],
+    "emoji": "💫"
+  },
+  {
+    "id": "CGCL01",
+    "nom": "Gommage Corps Café & Kojic",
+    "gamme": "CORPS_LIGHT",
+    "categorie": "corps",
+    "sous_titre": "Double exfoliation — Coudes, genoux",
+    "actifs_cles": [
+      "Poudre de café",
+      "Acide Kojique"
+    ],
+    "types_peau": [
+      "seche",
+      "grasse",
+      "mixte",
+      "normale"
+    ],
+    "problemes": [
+      "taches",
+      "imperfections"
+    ],
+    "objectifs": [
+      "rapide",
+      "transformation"
+    ],
+    "adapte_sens": [
+      "faible",
+      "moyen"
+    ],
+    "niveau_puiss": 3,
+    "priorite": 2,
+    "prix": 18,
+    "spf_requis": false,
+    "compatible": [
+      "CGDL01",
+      "CLLN01"
+    ],
+    "emoji": "☕"
+  }
+]

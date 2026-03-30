@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+  <title>GlowlyGlow — Outil Vendeur</title>
+  <meta name="description" content="Moteur de recommandation skincare GlowlyGlow — Outil vendeur">
+  <meta name="theme-color" content="#C8963E">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="GlowlyGlow">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="quiz-container">
+
+    <!-- HEADER -->
+    <div class="quiz-header">
+      <div class="brand">Glowlyglow</div>
+      <h1>Votre diagnostic peau</h1>
+      <p>8 questions — 2 minutes — Recommandation personnalisée</p>
+    </div>
+
+    <!-- MODE EXPRESS -->
+    <div class="express-panel" id="expressPanel">
+      <div class="express-label">⚡ Diagnostic express</div>
+      <div class="express-grid">
+        <button class="express-btn" onclick="expressStart('grasse_acne')">
+          <span class="express-emoji">🔴</span>Peau grasse<br>Acné
+        </button>
+        <button class="express-btn" onclick="expressStart('seche_hydra')">
+          <span class="express-emoji">💦</span>Peau sèche<br>Déshydratation
+        </button>
+        <button class="express-btn" onclick="expressStart('taches_glow')">
+          <span class="express-emoji">✨</span>Taches<br>Glow
+        </button>
+      </div>
+      <div class="express-or">— ou diagnostic complet —</div>
+    </div>
+
+    <!-- PROGRESS -->
+    <div class="progress-wrapper">
+      <div class="progress-info">
+        <span class="progress-step" id="stepLabel">Étape 1 / 8</span>
+        <span class="progress-count" id="percentLabel">12%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill" style="width: 12.5%"></div>
+      </div>
+    </div>
+
+    <!-- QUESTIONS -->
+    <div id="questionsContainer"></div>
+
+    <!-- RESULTS (MODE VENDEUR) -->
+    <div class="results-card" id="resultsCard">
+
+      <!-- EN-TÊTE VENDEUR -->
+      <div class="vendor-header">
+        <div>
+          <div class="vendor-title-label">Mode Vendeur</div>
+          <div class="vendor-brand">GlowlyGlow</div>
+        </div>
+        <div class="display-toggle">
+          <button id="btnRapide" class="toggle-btn active" onclick="switchDisplay('rapide')">&#9889; Rapide</button>
+          <button id="btnDetail" class="toggle-btn" onclick="switchDisplay('detail')">&#128203; Détaillé</button>
+        </div>
+      </div>
+
+      <!-- PROFIL CLIENT (accordéon) -->
+      <button class="profile-toggle-btn" onclick="toggleProfile()">
+        <span>👤 Profil client</span>
+        <span id="profileArrow">&#8595;</span>
+      </button>
+      <div id="profileCollapse" style="display:none">
+        <div class="profile-card" style="margin-bottom:8px">
+          <div class="profile-label">Résumé diagnostic</div>
+          <div id="profileRows"></div>
+        </div>
+      </div>
+
+      <!-- CONTENU VENDEUR -->
+      <div id="vendorContainer"></div>
+
+      <!-- FOOTER -->
+      <div class="vendor-footer">
+        <button class="restart-btn" onclick="restart()">&#8635; Nouveau client</button>
+        <button class="json-toggle" onclick="toggleJSON()">&#9881; JSON</button>
+      </div>
+      <div class="json-output" id="jsonOutput">
+        <pre id="jsonContent"></pre>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/questions.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/share.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
